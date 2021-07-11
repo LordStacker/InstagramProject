@@ -1,0 +1,41 @@
+body{
+    background: #eadddd;
+    margin: 0;
+}
+header{
+    background: white;
+    padding: 12px;
+    font-family: 'Zen Loop', cursive;
+}
+div.posters{
+    background: white;
+    margin-top: 8px;
+}
+div.posters h2, div.posters p{
+    padding: 12px;
+    margin: 0;
+    font-family: 'Zen Loop', cursive;
+}
+div.posters img{
+    width: 100%;
+}
+div.posters .headposter div:first-child{
+    display: inline-block;
+    width: 80%;
+    font-family: 'Zen Loop', cursive;
+}
+div.posters .headposter div:last-child{
+    display: inline-block;
+    width: 18%;
+    text-align: right;
+    padding: 2px;
+    font-family: 'Zen Loop', cursive;
+}
+header h1{
+    margin: 0;
+    font-family: 'Zen Loop', cursive;
+}
+div.container{
+    width: 600px;
+    margin: auto;
+}
